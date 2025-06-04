@@ -134,15 +134,6 @@ export default function KeyCreatedPage() {
             </Button>
           </div>
         </div>
-
-        {/* Success Notification */}
-        <div className="fixed bottom-4 right-4 flex items-center bg-green-900/20 border-l-4 border-green-500 pl-4 pr-6 py-3 rounded shadow-lg">
-          <div className="mr-3 w-1 h-full"></div>
-          <div>
-            <h4 className="text-green-400 font-medium">New Key Added</h4>
-            <p className="text-green-300 text-sm font-extralight">You can find your new key in settings &gt; API Tokens</p>
-          </div>
-        </div>
       </div>
     </div>
   )
